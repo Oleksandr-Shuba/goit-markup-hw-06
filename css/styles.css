@@ -390,7 +390,7 @@ a {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    background: transparent;
+    background-color: transparent;
     padding-left: 50px;
 }
 .modal-icon{
@@ -398,6 +398,12 @@ a {
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
+}
+.input-label{
+    font-size: 12px;
+    display: block;
+    position: relative;
+    color: var(--grey);
 }
 
 .modal-input::placeholder {
