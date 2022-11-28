@@ -295,6 +295,85 @@ a {
 
 
 
+
+
+
+
+
+/* -----------Підпишиться---на---сторінку------ */
+
+.subscription-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.subscrition-email-form {
+    display: flex;
+}
+
+.footer-label {
+    margin-right: 12px;
+}
+
+.footer-input {
+    width: 358px;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--dark-grey);
+    transition: border-color var(--trans-n-250), outline var(--trans-n-250);
+
+}
+
+.subsription-button {}
+
+.subsription-button.main {
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsription-button.click {
+    height: 50px;
+    color: var(--white);
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color var(--trans-n-250), box-shadow var(--trans-n-250);
+
+
+
+}
+
+.icon-send {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---- Nav menu------*/
 
 
@@ -428,6 +507,7 @@ a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    padding-left: 11px;
     margin-bottom: 30px;
     color: var(--grey);
     display: flex;
@@ -446,6 +526,16 @@ a {
     background: var(--white);
     border: 0.2px solid var(--text-main-color);
     fill: transparent;
+}
+
+.checkbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 1px solid var(--text-main-color);
+    border-radius: 1px;
+    cursor: pointer;
+
 }
 
 
