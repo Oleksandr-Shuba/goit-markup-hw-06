@@ -380,7 +380,7 @@ a {
 
 .input-wrapper {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .modal-input {
@@ -418,15 +418,60 @@ a {
     border-radius: 4px;
     resize: none;
 }
+
 .modal-comment:hover,
-.modal-comment:focus{
+.modal-comment:focus {
     border-color: var(--blue);
 }
-.checkbox{
-    width: 16px;
-    height: 15px;
+
+.checkbox-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    color: var(--grey);
+    display: flex;
+    align-items: center;
+
+
 }
 
+.checkbox-text span {
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border: 0.2px solid var(--text-main-color);
+    fill: transparent;
+}
+
+
+
+.modal-check:checked+.checkbox-text span {
+    background-color: var(--blue);
+    border: none;
+    fill: var(--white);
+}
+
+.modal-send {
+    font-size: 16px;
+    line-height: 1.87;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    background: #188CE8;
+    color: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
 
 .input-label {
     font-size: 12px;
