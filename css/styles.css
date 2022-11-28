@@ -613,8 +613,18 @@ a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: color var(--trans-n-250), background-color var(--trans-n-250)
+    transition: color var(--trans-n-250), background-color var(--trans-n-250);
 }
-.close-button-icon{
+.close-button-icon:hover,
+.close-button-icon:focus {
+    background-color: var(--white);
+    
+}
+.close-button-icon:hover,
+.close-button-icon:focus{
+    fill: var(--blue);
+}
+..close-button-icon{
     fill: currentColor;
+}
 }
