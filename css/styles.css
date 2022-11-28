@@ -605,7 +605,7 @@ a {
     top: 10px;
     width: 30px;
     height: 30px;
-    background-color: transparent;
+    background: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     padding: 5px;
@@ -613,6 +613,8 @@ a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    fill: #000000;
     transition: color var(--trans-n-250), background-color var(--trans-n-250)
+}
+.close-button-icon{
+    fill: currentColor;
 }
