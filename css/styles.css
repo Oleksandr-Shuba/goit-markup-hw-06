@@ -203,7 +203,7 @@ a {
 .footer .container {
     display: flex;
     gap: 70px;
-    vertical-align: baseline;
+    align-items: baseline;
 }
 
 /* footer-logo-starts */
@@ -264,7 +264,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white);
-    margin: 12px 0px 20px;
+    margin: 0px 0px 20px;
 
 }
 
@@ -309,19 +309,24 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white);
+    margin-bottom: 20px;
+
 }
 
 .subscrition-email-form {
     display: flex;
 }
 
-.footer-label {
-    margin-right: 12px;
-}
-
 .footer-input {
     width: 358px;
     padding: 15px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -330,19 +335,32 @@ a {
 
 }
 
+.placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .subsription-button {}
 
 .subsription-button.main {
     min-width: 200px;
+    margin-left: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--blue);
 }
 
 .subsription-button.click {
     height: 50px;
     color: var(--white);
     background-color: var(--blue);
+    padding: 10px 28px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -459,7 +477,7 @@ a {
 
 .input-wrapper {
     position: relative;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .modal-input {
@@ -476,7 +494,7 @@ a {
 
 .modal-icon {
     position: absolute;
-    left: 5px;
+    left: 12px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -496,6 +514,7 @@ a {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
+    padding: 16px;
 }
 
 .modal-comment:hover,
@@ -535,6 +554,16 @@ a {
     border: 1px solid var(--text-main-color);
     border-radius: 1px;
     cursor: pointer;
+}
+
+.agreement-link {
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: var(--blue);
 
 }
 
@@ -550,6 +579,7 @@ a {
     font-size: 16px;
     line-height: 1.87;
     display: block;
+    border: none;
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -560,6 +590,7 @@ a {
     color: var(--white);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 
 }
 
@@ -568,7 +599,7 @@ a {
     display: block;
     position: relative;
     color: var(--grey);
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .input-label span {
@@ -615,16 +646,19 @@ a {
     cursor: pointer;
     transition: color var(--trans-n-250), background-color var(--trans-n-250);
 }
+
 .close-button-icon:hover,
 .close-button-icon:focus {
     background-color: var(--white);
-    
+
 }
+
 .close-button-icon:hover,
-.close-button-icon:focus{
+.close-button-icon:focus {
     fill: var(--blue);
 }
-..close-button-icon{
+
+..close-button-icon {
     fill: currentColor;
 }
 }
