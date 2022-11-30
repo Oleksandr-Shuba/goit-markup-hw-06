@@ -362,6 +362,8 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     transition: background-color var(--trans-n-250), box-shadow var(--trans-n-250);
+    border: none;
+    outline: none;
 }
 
 
@@ -371,16 +373,6 @@ a {
     margin-left: 10px;
     fill: var(--white);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -469,7 +461,7 @@ a {
 
 .input-wrapper {
     position: relative;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
 }
 
 .modal-input {
@@ -478,7 +470,7 @@ a {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 5px;
     background-color: transparent;
-
+    margin-top: 4px;
     padding-left: 30px;
     font-size: 12px;
     color: var(--text-main-color);
@@ -506,6 +498,7 @@ a {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
+    margin-top: 4px;
     padding: 16px;
 }
 
@@ -523,6 +516,7 @@ a {
     color: var(--grey);
     display: flex;
     align-items: center;
+    cursor: pointer;
 
 
 }
@@ -537,14 +531,15 @@ a {
     background: var(--white);
     border: 0.2px solid var(--text-main-color);
     fill: transparent;
+    
 }
 
 .checkbox-icon {
     display: inline-block;
     width: 16px;
     height: 15px;
-    border: 1px solid var(--text-main-color);
-    border-radius: 1px;
+    border: 2px solid var(--text-main-color);
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -591,12 +586,6 @@ a {
     display: block;
     position: relative;
     color: var(--grey);
-    margin-bottom: 10px;
-}
-
-.input-label span {
-    display: block;
-    margin-bottom: 4px;
 }
 
 .modal-input::placeholder {
@@ -652,5 +641,4 @@ a {
 
 ..close-button-icon {
     fill: currentColor;
-}
 }
