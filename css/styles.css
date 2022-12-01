@@ -419,6 +419,8 @@ a {
 
 
 /* ------------BACKDROP--------МОДАЛЬНЕ ВІКНО--------------------- */
+
+
 .backdrop {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.2);
@@ -513,24 +515,9 @@ a {
     justify-content: center;
     cursor: pointer;
     padding-left: 11px;
-    margin-bottom: 30px;
-    /* border: 2px solid var(--text-main-color);
-        border-radius: 2px; */
-       
+    margin-bottom: 30px;    
 }
 
-/* .checkbox-text span {
-    
-    margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-    
-    
-} */
-
-/* .input-checkbox {
-    position: relative;
-} */
 
 .modal-check:checked + .checkbox-icon {
     background-color: var(--blue);
