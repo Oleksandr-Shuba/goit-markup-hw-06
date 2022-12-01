@@ -550,9 +550,9 @@ a {
     display: inline-block;
     width: 16px;
     height: 15px;
-    color: var(--white);
+    fill: var(--white);
     cursor: pointer;
-    border: 2px solid var(--blue);
+    border: 2px solid var(--text-main-color);
     transition: color var(--trans-n-250), background-color var(--trans-n-250);
 }
 
