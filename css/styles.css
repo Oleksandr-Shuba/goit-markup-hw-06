@@ -539,8 +539,11 @@ a {
 
 .modal-check {
     position: absolute;
-    appearance: none;
+    top: 5px;
+    left: 25px;
+    opacity: 0;
 }
+
 .checkbox-agreement-text{
    margin-left: 8px;
    margin-right: 8px; 
