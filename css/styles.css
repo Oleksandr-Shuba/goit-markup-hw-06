@@ -503,6 +503,7 @@ a {
 /* ---------------CHECKBOX---------------------- */
 
 .checkbox-text {
+    position: relative;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -539,6 +540,7 @@ a {
 
 .modal-check {
     position: absolute;
+    content: '';
     top: 5px;
     left: 25px;
     opacity: 0;
